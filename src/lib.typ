@@ -68,7 +68,7 @@ long } }
   )
 
   // Set the body font.
-  set text(font: ("Utopia LaTeX"), size: 11pt)
+  set text(font: ("New Computer Modern"), size: 11pt)
 
   // Configure page size and margins.
   set page(
@@ -228,7 +228,7 @@ long } }
   set table(stroke: none)
 
   // Set raw text font.
-  show raw: set text(font: ("Iosevka", "Fira Mono"), size: 9pt)
+  show raw: set text(font: ("JetBrainsMono NF"), size: 9pt)
 
   // Display inline code in a small box that retains the correct baseline.
   // show raw.where(block: false): box.with(
