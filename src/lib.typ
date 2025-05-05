@@ -33,7 +33,7 @@ long } }
 }
 
 #let back-matter(body) = {
-  set heading(numbering: "A", supplement: [Appendix])
+  set heading(numbering: "A.1", supplement: [Appendix])
   // Without this, the header says "Chapter F"
   counter(heading.where(level: 1)).update(0)
   // Without this, the table of contents line says "Chapter F"
@@ -216,7 +216,7 @@ long } }
     if it.kind == table {
       align(center, it)
     } else {
-      align(left, it)
+      align(center, it)
     }
   }
   show figure.where(kind: table): it => {
